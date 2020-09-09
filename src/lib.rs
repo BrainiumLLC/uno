@@ -1,3 +1,5 @@
+//! There are no docs. Sorry...
+
 #[macro_use]
 mod macros;
 
