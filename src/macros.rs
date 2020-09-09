@@ -106,7 +106,7 @@ macro_rules! special_ops {
         special_ops!($inner, wrapping_shl, u32);
         special_ops!($inner, wrapping_shr, u32);
         special_ops!($inner, wrapping_sub, Self);
-    }
+    };
 }
 
 macro_rules! unorm {
