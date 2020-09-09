@@ -8,6 +8,7 @@ documentation = "https://docs.rs/uno"
 repository = "https://github.com/BrainiumLLC/uno"
 readme = "README.md"
 keywords = ["math", "mathematics", "numerics"]
+categories = []
 license = "Apache-2.0/MIT"
 
 [features]
