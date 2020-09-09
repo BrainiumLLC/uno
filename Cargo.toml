@@ -3,6 +3,12 @@ name = "uno"
 version = "0.1.0"
 authors = ["Brainium Studios LLC"]
 edition = "2018"
+description = "Encode floats in the range [0.0, 1.0] as unsigned integers!"
+documentation = "https://docs.rs/uno"
+repository = "https://github.com/BrainiumLLC/uno"
+readme = "README.md"
+keywords = ["math", "mathematics", "numerics"]
+license = "Apache-2.0/MIT"
 
 [features]
 default = []
