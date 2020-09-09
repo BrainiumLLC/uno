@@ -273,3 +273,13 @@ macro_rules! unorm {
         }
     };
 }
+
+macro_rules! from {
+    ($from:ty, $to:ty) => {
+        impl From<$from> for $to {
+            fn from(n: $from) -> Self {
+                Self::from_inner(conv::extend_unorm(n.to_inner()))
+            }
+        }
+    };
+}
