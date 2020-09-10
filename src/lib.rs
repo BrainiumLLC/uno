@@ -21,3 +21,7 @@ from!(Unorm16, Unorm32);
 from!(Unorm8, Unorm64);
 from!(Unorm16, Unorm64);
 from!(Unorm32, Unorm64);
+
+// usize is guaranteed to be 32 bits or more
+from!(Unorm8, UnormSize);
+from!(Unorm16, UnormSize);
